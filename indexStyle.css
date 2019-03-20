@@ -1,9 +1,9 @@
 :root {
     --container-bg-color: #333;
     --left-bg-color: rgba(41, 126, 172, 0.5);
-    --left-button-hover-color: rgba(25, 138, 198, 0.4);
-    --right-bg-color: rgba(43, 43, 43, 0.8);
-    --right-button-hover-color: rgba(92, 92, 92, 0.3);
+    /* --left-button-hover-color: rgba(25, 138, 198, 0.4); */
+    --right-bg-color: rgba(43, 43, 43, 0.4);
+    /* --right-button-hover-color: rgba(92, 92, 92, 0.3); */
     --hover-width: 60%;
     --other-width: 40%;
     --speed: 1000ms;
@@ -24,12 +24,12 @@ h1 {
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
     transform: translateX(-50%);
     white-space: nowrap;
 }
 
-.button {
+/* .button {
     display: block;
     position: absolute;
     left: 50%;
@@ -45,9 +45,9 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     transform: translateX(-50%);
-}
+} */
 
-.split.left .button:hover {
+/* .split.left .button:hover {
     background-color: var(--left-button-hover-color);
     border-color: var(--left-button-hover-color);
 }
@@ -55,7 +55,7 @@ h1 {
 .split.right .button:hover {
     background-color: var(--right-button-hover-color);
     border-color: var(--right-button-hover-color);
-}
+} */
 
 .container {
     position: relative;
