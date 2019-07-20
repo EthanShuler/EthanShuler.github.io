@@ -6,14 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="practice.js"></script>
+    <style src="style.css"></style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <title>Document</title>
 </head>
 
-<body>
-    <h1 id="main">hi</h1>
-    <button onclick="generate()">Generate Exercise</button>
-    <button onclick="setJazz()">set j a z z mode</button>
-    <button onclick="setNoJazz()">remove j a z z mode</button>
+<body style="background-color:rgb(10, 13, 58)">
+    <div class="d-flex p-2 justify-content-center" style="margin-top: 100px">
+        <h1 id="main" style="color:white">C major scale</h1>
+    </div>
+    <div class="d-flex p-2 justify-content-center">
+        <div class="d-flex flex-column justify-content-center ">
+            <div class="p-2">
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="generate()">Generate Exercise</button>
+            </div>
+            <div class="p-2">
+                <button type="button" class="btn btn-info btn-lg" onclick="setJazz()">set j a z z mode</button>
+                <button type="button" class="btn btn-info btn-lg" onclick="setNoJazz()">remove j a z z mode</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
