@@ -1,0 +1,36 @@
+* {display: flexbox;}
+
+body { background-color: rgb(35, 36, 38);}
+h1 { color: white; }
+h2 { color: white; }
+p {	color: white; }
+
+.navbar { background: black; backface-visibility: hidden; opacity: 80% }
+.navbar a {opacity: 100% !important;}
+
+.top-wrapper { 
+	text-align: center;
+ }
+
+.top-banner {
+	padding: 60px 0 120px 0;
+	height: 960px;
+	width: 640px;
+	background-image: url("../img/Ethan.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.top-banner .h1 { text-align: center; }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-video {
+	width: 50%;
+	height: 300px;
+}
+
+.carousel-wrapper { text-align: center; }
