@@ -29,10 +29,10 @@
 						<a class="nav-link scroll-link" href="#top-content">Top</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link scroll-link" href="#recordings">Recordings</a>
+						<a class="nav-link" href="#recordings">Recordings</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link scroll-link" href="#biograpy">Biography</a>
+						<a class="nav-link scroll-link" href="#biography">Biography</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link scroll-link" href="#education">Education</a>
@@ -45,59 +45,80 @@
 		</div>
 	</nav>
 
-	<div class="top-wrapper" id=#top-content>
+	<div class="top-wrapper" id=top-content>
 		<div class="top-banner">
-			<h1 class="mt-5">Ethan Shuler - Musician</h1>
+			<h1 class="mt-5 display-1">Ethan Shuler</h1>
+			<h2 class="display-3">Musician</h2>
 		</div>
 	</div>
+
+	<hr>
 	
-	<div id=#recordings class="mt-5">
-		<h2 class="text-center">Recordings</h2>
-		<div class="carousel-wrapper mt-5">
-			<div id="video-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-				<ul class="carousel-indicators">
-				  <li data-target="#video-carousel" data-slide-to="0" class="active"></li>
-				  <li data-target="#video-carousel" data-slide-to="1"></li>
-				</ul>
-				<div class="carousel-inner">
-				  <div class="carousel-item active">
+	<div id=recordings class="mt-5 container">
+		<h2 class="text-center display-3">Recordings</h2>
+		
+		<div class="videos mt-5">
+			<div class="row">
+				<div class="col">
+					<h4>Poulenc Trio for Oboe, Bassoon, and Piano</h4>
+					<p>Performed March 2020</p>
+					<iframe class="carousel-video" src="https://www.youtube.com/embed/VJyt66S_blg">
+					</iframe>
+				</div>
+				<div class="col">
+					<h4>Pure Imagination</h4>
+					<p>A recording of my own arrangement of "Pure Imagination"</p>
 					<iframe class="carousel-video" src="https://www.youtube.com/embed/4gi7Dj0sFCI">
 					</iframe>
-					<div class="carousel-caption">
-					  <h3>Pure Imagination</h3>
-					  <p>A recording of my own arrangement of "Pure Imagination"</p>
-					</div>   
-				  </div>
-				  <div class="carousel-item">
-					<iframe class="carousel-video" src="https://www.youtube.com/embed/VJyt66S_blg">
-					  </iframe>
-					<div class="carousel-caption">
-					  <h3>Poulenc Trio for Oboe, Bassoon, and Piano</h3>
-					  <p>Performed March 2020</p>
-					</div>   
-				  </div>
 				</div>
-				<a class="carousel-control-prev" href="#video-carousel" data-slide="prev">
-				  <span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#video-carousel" data-slide="next">
-				  <span class="carousel-control-next-icon"></span>
-				</a>
-			  </div>
+			</div>
 		</div>
 	</div>
 
-	<div id=#biography>
+	<hr>
 
+	<div id=biography class="mt-5 container">
+		<h2 class="text-center display-3">Biography</h2>
 	</div>
 
-	<div id=#education>
-		
+	<hr>
+
+	<div id=education class="mt-5 container" style="text-align: center;">
+		<h2 class="display-3">Education</h2>
+		<p class="pt-3">In May 2020, I completed a bachelor's degree in bassoon performance at The University of Colorado-Boulder under the guidance of Professor Yoshiyuki Ishikawa. </p>
+		<h2 class="pt-1">GPA: 4.0</h2>
+
+		<button class="btn btn-secondary mt-4" data-toggle="collapse" data-target="#courses"><h4><strong>RELEVANT COURSES </strong></h4></button>
+		<ul class="list-group text-center collapse" id="courses">
+			<li class="list-group-item course"><span>Symphony Orchestra</span></li>
+			<li class="list-group-item course"><span>Wind Symphony</span></li>
+			<li class="list-group-item course"><span>Philharmonia Orchestra</span></li>
+			<li class="list-group-item course"><span>Studies in Alexander Technique</span></li>
+			<li class="list-group-item course"><span>Instrumentation</span></li>
+			<li class="list-group-item course"><span>Music Theory, levels 1-4</span></li>
+			<li class="list-group-item course"><span>Aural Skills, levels 1-4</span></li>
+			<li class="list-group-item course"><span>18th Centruy Counterpoint</span></li>
+			<li class="list-group-item course"><span>Instrumental Conducting</span></li>
+			<li class="list-group-item course"><span>Instrumental Conducting</span></li>
+			<li class="list-group-item course"><span>History of Music, levels 1 & 2</span></li>
+			<li class="list-group-item course"><span>Musical Styles and Ideas</span></li>
+			<li class="list-group-item course"><span>Music in Jewish Culture</span></li>
+		</ul>
+
+		<h4 class="pt-5"><strong>AWARDS</strong></h4>
+		<p class="pt-3">I was awarded the Chancellor's Achievement Award upon graduating.</p>
+
+		<h4 class="pt-5"><strong>COMPUTER SCIENCE DEGREE</strong></h4>
+		<p class="pt-3">In the same four years that I attained my music degree, I also attained a bachelor's degree in computer science.</p>
 	</div>
 
-	<div id=#experience>
-		
+	<hr>
+
+	<div id=experience class="mt-5 container">
+		<h2 class="text-center  display-3">Experience</h2>
 	</div>
+
+	<hr>
 	
 	
 		
