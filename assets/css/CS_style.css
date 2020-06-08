@@ -1,0 +1,21 @@
+.img-back {
+    background-image: url('../images/CU.jpg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+    
+    width: 100%;
+    height: 400px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    
+}
+
+.degree-info {
+    background-color: white;
+    opacity: 70%;
+    width: 40%;
+    border-radius: 12px;
+}
